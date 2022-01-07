@@ -25,12 +25,6 @@ def specKey(keyval):
         keyboard.release(Key.backspace)
 
 
-def loop(keyval, count):
-    for x in range(count):
-        time.sleep(0.4)
-        pressKey(keyval)
-
-
 for x in range(2):
     time.sleep(1)
     specKey("enter")
